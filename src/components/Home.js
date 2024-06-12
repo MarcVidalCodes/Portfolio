@@ -24,7 +24,7 @@ function Home() {
 
       <Section>
         <Text>
-          Navigate my portfolio by clicking the menu button and navigating through various content tabs. t
+          Navigate my portfolio by clicking the menu button and exploring through various content tabs!
         </Text>
       </Section>
 
