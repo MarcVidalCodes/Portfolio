@@ -10,7 +10,8 @@ import MarkdownButton from './MarkdownButton';
 
 function Home() {
   return (
-    <div>
+    <div className="flex flex-col pt-8 pb-8 sm:pt-12 sm:pb-12 md:pt-20 md:pb-20 lg:pt-24 lg:pb-24 xl:pt-32 xl:pb-32">
+    <div className="text-center ">
       <Section>
         <h1 className="text-5xl mb-3">
           Hi! I'm <span className="text-pink">Marc</span>!
@@ -24,7 +25,7 @@ function Home() {
 
       <Section>
         <Text>
-          Navigate my portfolio by clicking the menu button and exploring through various content tabs!
+          Navigate my portfolio by clicking the menu button and exploring through the various content tabs!
         </Text>
       </Section>
 
@@ -47,6 +48,7 @@ function Home() {
           <span className="ml-5">~/lets_chat</span>
         </div>
       </Section>
+    </div>
     </div>
   )
 }
