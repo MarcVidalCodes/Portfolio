@@ -34,7 +34,7 @@ function About() {
         I am constantly looking to expand my toolkit and am open to working with and learning new skills!
         </Comment>
         <Text>
-          <span className="font-bold text-pink">Front-end: </span> HTML, CSS, Javascript
+          <span className="font-bold text-pink">Front-end: </span> HTML, CSS, Javascript, React.js
         </Text>
         <Text>
           <span className="font-bold text-pink">Back-end: </span> Node.js, MongoDB, Express.js
