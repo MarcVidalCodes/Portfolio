@@ -4,6 +4,7 @@ import Text from './Text';
 import LineBreak from './LineBreak';
 import ResumePDF from '../assets/documents/Resume.pdf';
 import ResumePic from '../assets/images/resume.png';
+import MarkdownButton from './MarkdownButton';
 
 function Resume() {
   return (
@@ -22,9 +23,9 @@ function Resume() {
       </Section>
 
       <Section>
-        <a href={ResumePDF} target="_blank" rel="noreferrer" className="text-link font-normal">
-          Download Resume
-        </a>
+        <MarkdownButton as="a" href={ResumePDF} target="_blank" rel="noreferrer">
+          [Download Resume]
+        </MarkdownButton>
       </Section>
       <img src={ResumePic} alt="Resume" className="resume-image" />
     </div>
