@@ -24,7 +24,7 @@ function Home() {
 
       <Section>
         <Text>
-          For more information on my background and previous work, check out some of the helpful links below!
+          Navigate my portfolio by clicking the menu button and navigating through various content tabs. 
         </Text>
       </Section>
 

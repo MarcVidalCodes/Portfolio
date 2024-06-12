@@ -10,7 +10,7 @@ function OutfitForecast() {
   return (
     <Project>
       <ProjectText
-        title="Ecommerce Electronic Store"
+        title="Outfit Forecast"
         technologies="HTML, CSS, Javascript"
         description="An outfit recommendation website that provides users with outfit inspirations, designs, and themes based on the weather in their location."
         githubLink="https://github.com/MarcVidalCodes/Outfit-Forecast"
