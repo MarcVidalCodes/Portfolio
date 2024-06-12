@@ -21,7 +21,7 @@ function Timeline() {
       >
         <h3 className="vertical-timeline-element-title" style={{ color: 'black' }}>Lifeguard/Swim Instructor</h3>
         <h4 className="vertical-timeline-element-subtitle" style={{ color: 'black' }}>Stouffville, ON</h4>
-        <p style={{ color: 'black' }}>Lead a guard team of 3 as a head lifeguard and taught successful high level lifesaving classes.</p>
+        <p style={{ color: 'black' }}>Led a guard team of 3 as a head lifeguard and taught successful high level lifesaving classes.</p>
       </VerticalTimelineElement>
 
     </VerticalTimeline>
