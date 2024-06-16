@@ -16,8 +16,9 @@ function About() {
         <MarkdownHeader headingLevel="1" text="About" className="text-3xl md:text-5xl" />
         <LineBreak />
         <Text>Hi! My name is Marc Vidal. I am a full stack software engineer, currently pursuing my Bachelor of Science in Computer Science from Carleton University, with my stream being in artificial intelligence and machine learning. </Text>
-        <Text>This portfolio website is inspired by Visual Studio Code and created with React.js. </Text>
+        <Text>This portfolio website is inspired by my favourite code editor, Visual Studio Code and created with React.js. </Text>
         <Text>I am always eager to learn. Right now, I am learning Swift and SwiftUI in hopes of publishing my own app on the App Store!</Text>
+        <Text>Aside from my passion to apply my learning into code, my interests are playing basketball, sports cars, strategy games, collecting action figures, and swimming. I also love going on walks with my dog, Hershey!</Text>
         <Text>To reach out, see <TabLink className="font-bold text-yellow" tab={contact}>Contact.md</TabLink>.</Text>
       </Section>
 
