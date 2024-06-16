@@ -21,7 +21,7 @@ function WhatsNext() {
           SniffSwipes: Tinder for pups looking to make friends
         </h2>
         <h3 className="text-1x mb-3">
-          Finished front-end and currently working on creating a backend server for database connection via MongoDB, password hashing, user accounts, real time messaging
+          Finished frontend and currently working on creating a backend server for database connection via MongoDB, password hashing, user accounts, real time messaging
         </h3>
       </Section>
       <Section>
