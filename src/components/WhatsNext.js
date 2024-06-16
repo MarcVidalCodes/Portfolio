@@ -21,7 +21,7 @@ function WhatsNext() {
           SniffSwipes: Tinder for pups looking to make friends
         </h2>
         <h3 className="text-1x mb-3">
-          Finished frontend and currently working on creating a backend server for database connection via MongoDB, password hashing, user accounts, real time messaging
+          Currently working on a Tinder-like app for dogs to set up playdates. I am creating this app using React Native Expo, Tailwind CSS and Firebase. 
         </h3>
       </Section>
       <Section>
