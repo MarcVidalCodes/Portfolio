@@ -10,7 +10,8 @@ function Ecommerce() {
       <ProjectText
         title="Ecommerce Electronic Store"
         technologies="Java, OOP, Model-View-Controller Architecture"
-        description="Simple ecommerce electronics store with features including cart management, inventory tracking, revenue per sale, and sales completion."
+        description="Simple ecommerce electronics store that is centered around the principles of object oriented programming 
+        and the model-view-controller architecture with features including cart management, inventory tracking, revenue per sale, and sales completion."
       />
       <ProjectPreview src={ecom} alt="Ecommerce Store" />
     </Project>
