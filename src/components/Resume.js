@@ -27,6 +27,19 @@ function Resume() {
           [Download Resume]
         </MarkdownButton>
       </Section>
+
+      <Section>
+        <Text>
+          Or click the button below to view my resume in a new tab as a pdf.
+        </Text>
+      </Section>
+
+      <Section>
+        <MarkdownButton as="a" href={ResumePDF} target="_blank" rel="noreferrer">
+          [View Resume]
+        </MarkdownButton>
+      </Section>
+
       <img src={ResumePic} alt="Resume" className="resume-image" />
     </div>
   );
