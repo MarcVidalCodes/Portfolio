@@ -11,16 +11,15 @@ function Titlebar() {
   }, []);
 
   const showMenuItems = windowWidth >= 921;
-  const isMobile = windowWidth < 768; // Adjust the breakpoint as needed
+  const isMobile = windowWidth < 768; 
 
   if (isMobile) {
-    return null; // Render nothing if in mobile mode
+    return null; 
   }
 
   return (
     <>
       <div className="bg-dark-700 text-white flex items-center justify-between px-4 py-2 h-8 relative">
-        {/* Left section with VS Code icon and menu items */}
         <div className="flex items-center space-x-4">
           <img src={vscodeIcon} alt="VS Code Icon" className="w-4 h-4" />
           {showMenuItems && (
@@ -41,15 +40,13 @@ function Titlebar() {
           <span className="text-sm">Marc Vidal - Visual Studio Code</span>
         </div>
 
-        {/* Right section with control buttons */}
         <div className="flex items-center space-x-2">
-          {/* Apply custom colors using inline styles */}
           <span className="w-4 h-4" style={{ backgroundColor: '#FFD700', borderRadius: '50%', border: '1px solid var(--dark-700)' }}></span>
           <span className="w-4 h-4" style={{ backgroundColor: '#008000', borderRadius: '50%', border: '1px solid var(--dark-700)' }}></span>
           <span className="w-4 h-4" style={{ backgroundColor: '#FF0000', borderRadius: '50%', border: '1px solid var(--dark-700)' }}></span>
         </div>
       </div>
-      <div className="h-0.5 bg-gray-600"></div> {/* Horizontal separator */}
+      <div className="h-0.5 bg-gray-600"></div> 
     </>
   );
 }

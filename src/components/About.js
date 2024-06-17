@@ -18,7 +18,9 @@ function About() {
         <Text>Hi! My name is Marc Vidal. I am a full stack software engineer, currently pursuing my Bachelor of Science in Computer Science from Carleton University, with my stream being in artificial intelligence and machine learning. </Text>
         <Text>This portfolio website is inspired by my favourite code editor, Visual Studio Code and created with React.js. </Text>
         <Text>I am always eager to learn. Right now, I am learning Swift and SwiftUI in hopes of publishing my own app on the App Store!</Text>
-        <Text>Aside from my passion to apply my learning into code, my interests are playing basketball, sports cars, strategy games, collecting action figures, and swimming. I also love going on walks with my dog, Hershey!</Text>
+        <Text>
+        <span className="font-bold text-pink">Interests/Hobbies: </span> 
+        Playing basketball, sports cars, strategy games, collecting action figures, and swimming. I also love going on walks with my dog, Hershey!</Text>
         <Text>To reach out, see <TabLink className="font-bold text-yellow" tab={contact}>Contact.md</TabLink>.</Text>
       </Section>
 
@@ -35,13 +37,13 @@ function About() {
         I am constantly looking to expand my toolkit and am open to working with and learning new skills!
         </Comment>
         <Text>
-          <span className="font-bold text-pink">Front-end: </span> HTML, CSS, Javascript, React.js
+          <span className="font-bold text-pink">Front-end: </span> HTML, CSS, TailwindCSS, Javascript, React.js, React Native
         </Text>
         <Text>
-          <span className="font-bold text-pink">Back-end: </span> Node.js, MongoDB, Express.js
+          <span className="font-bold text-pink">Back-end: </span> Node.js, MongoDB, Firebase, Express.js
         </Text>
         <Text>
-          <span className="font-bold text-pink">Languages: </span> Python, Java
+          <span className="font-bold text-pink">Languages: </span> Python, Java, C++
         </Text>
         <Text>
           <span className="font-bold text-pink">Miscellaneous:</span> Git, Figma, Object-Oriented Programming and Design, Full Stack Web Development, REST APIs
