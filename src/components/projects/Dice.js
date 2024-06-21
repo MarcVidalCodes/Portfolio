@@ -14,8 +14,8 @@ function Dice() {
         description="Die created with Arduino, various electrical components, and 3d parts. Wave hand over infrared sensor to start rolling sequence."
         githubLink="https://github.com/MarcVidalCodes/Arduino-Dice"
       />
-      <ProjectPreview src={dice} alt="dice" />
-      <ProjectPreview src={dice2} alt="inside dice" />
+      <ProjectPreview src={dice} alt="dice" width ="60%"/>
+      <ProjectPreview src={dice2} alt="inside dice" width ="60%" />
     </Project>
   );
 }

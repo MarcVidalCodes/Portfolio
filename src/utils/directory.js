@@ -9,6 +9,7 @@ import Outfit from '../components/projects/OutfitForecast';
 import WhatsNext from '../components/WhatsNext'
 import Timeline from '../components/Timeline';
 import Notes from '../components/projects/Notes';
+import Finance from '../components/projects/Finance'
 
 const about = { name: 'About', type: 'file', extension: 'js', component: <About /> }
 const home = { name: 'Home', type: 'file', extension: 'js', component: <Home /> }
@@ -18,8 +19,9 @@ const ecom = { name: 'Ecommerce', type: 'file', extension: 'js', component: <Eco
 const notes = { name: 'Notes', type: 'file', extension: 'js', component: <Notes /> }
 const resume = { name: 'Resume', type: 'file', extension: 'txt', component: <Resume /> }
 const outfit = { name: 'OutfitForecast', type: 'file', extension: 'js', component: <Outfit /> }
-const whatsnext = { name: 'WhatsNext', type: 'file', extension: 'html', component: <WhatsNext /> }
-const timeline = { name: 'My Timeline', type: 'file', extension: 'js', component: <Timeline /> }
+const whatsnext = { name: 'ProjectsHome', type: 'file', extension: 'html', component: <WhatsNext /> }
+const timeline = { name: 'MyTimeline', type: 'file', extension: 'js', component: <Timeline /> }
+const finance = { name: 'FinanceTracker', type: 'file', extension: 'js', component: <Finance /> }
 
 const directory = [{
   name: 'marc_vidal_portfolio',
@@ -32,11 +34,12 @@ const directory = [{
       name: 'projects',
       type: 'folder',
       children: [
+        whatsnext,
+        finance,
         outfit,
         notes,
         ecom,
-          dice,
-          whatsnext
+          dice
       ] 
     },
     resume,
@@ -48,6 +51,7 @@ export {
   whatsnext,
   outfit,
   about,
+  finance,
   notes,
   home,
   contact,
