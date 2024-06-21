@@ -11,7 +11,7 @@ function WhatsNext() {
   return (
     <div>
       <Section>
-        <MarkdownHeader headingLevel="1" text="About" className="text-3xl md:text-5xl" />
+        <MarkdownHeader headingLevel="1" text="Projects Home" className="text-3xl md:text-5xl" />
         <LineBreak />
         <Text>Here are some quick links to my projects: </Text>
         <div>
