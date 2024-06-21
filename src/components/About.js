@@ -40,7 +40,10 @@ function About() {
           <span className="font-bold text-pink">Front-end: </span> HTML, CSS, TailwindCSS, Javascript, React.js, React Native
         </Text>
         <Text>
-          <span className="font-bold text-pink">Back-end: </span> Node.js, MongoDB, Firebase, Express.js
+          <span className="font-bold text-pink">Back-end: </span> Node.js, MongoDB, Firebase, Express.js, SQLite
+        </Text>
+        <Text>
+          <span className="font-bold text-pink">App Development </span> React Native, Flutter
         </Text>
         <Text>
           <span className="font-bold text-pink">Languages: </span> Python, Java, C++
