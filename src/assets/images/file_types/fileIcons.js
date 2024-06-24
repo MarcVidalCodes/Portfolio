@@ -7,6 +7,7 @@ import md from './info.svg';
 import js from './javascript.svg';
 import rb from './ruby.svg';
 import json from './json.svg';
+import jsx from './react_icon.svg'
 
 export const fileIcons = {
   css,
@@ -17,5 +18,6 @@ export const fileIcons = {
   js,
   md,
   rb,
+  jsx,
   json
 }

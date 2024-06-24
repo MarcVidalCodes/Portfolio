@@ -7,7 +7,7 @@ import MarkdownButton from './MarkdownButton';
 import Comment from './Comment';
 import {contact } from '../utils/directory'
 import TabLink from './TabLink';
-import ResumePDF from '../assets/documents/Resume.pdf';
+
 
 function About() {
   return (
@@ -24,11 +24,6 @@ function About() {
         <Text>To reach out, see <TabLink className="font-bold text-yellow" tab={contact}>Contact.md</TabLink>.</Text>
       </Section>
 
-      <Section>
-        <MarkdownButton as="a" href={ResumePDF} target="_blank" rel="noreferrer">
-          [Download Resume]
-        </MarkdownButton>
-      </Section>
 
       <Section>
         <MarkdownHeader headingLevel="2" text="Technologies" className="text-xl md:text-3xl" />
