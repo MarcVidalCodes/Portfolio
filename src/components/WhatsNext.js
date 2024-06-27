@@ -4,7 +4,7 @@ import LineBreak from './LineBreak';
 import Section from './Section';
 import Text from './Text';
 import Link from './Link';
-import { finance,outfit,notes,ecom,dice} from '../utils/directory'
+import { finance,outfit,ecom,dice,cibc} from '../utils/directory'
 import TabLink from './TabLink';
 
 function WhatsNext() {
@@ -15,16 +15,16 @@ function WhatsNext() {
         <LineBreak />
         <Text>Here are some quick links to my projects: </Text>
         <div>
+          <TabLink tab={cibc} className="text-link font-normal">CIBC Parent Portal</TabLink>
+          <span className="ml-5">~/Developed for MBA consulting team</span>
+        </div>
+        <div>
           <TabLink tab={finance} className="text-link font-normal">Finance Tracker</TabLink>
           <span className="ml-5">~/Flutter App</span>
         </div>
         <div>
           <TabLink tab={outfit} className="text-link font-normal">Outfit Forecast</TabLink>
           <span className="ml-5">~/Inspire your fit</span>
-        </div>
-        <div>
-          <TabLink tab={notes} className="text-link font-normal">Notes App</TabLink>
-          <span className="ml-5">~/React App</span>
         </div>
         <div>
           <TabLink tab={ecom} className="text-link font-normal">Ecommerce Store</TabLink>

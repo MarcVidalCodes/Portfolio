@@ -38,7 +38,7 @@ function About() {
           <span className="font-bold text-pink">Back-end: </span> Node.js, MongoDB, Firebase, Express.js, SQLite
         </Text>
         <Text>
-          <span className="font-bold text-pink">App Development </span> React Native, Flutter
+          <span className="font-bold text-pink">App Development: </span> Swift/SwiftUI, React Native, Flutter
         </Text>
         <Text>
           <span className="font-bold text-pink">Languages: </span> Python, Java, C++
