@@ -61,7 +61,7 @@ const Contact = () => {
         )}
         <form ref={form} onSubmit={sendEmail} className="space-y-4">
           <div>
-            <label htmlFor="user_name" className="block mb-1">
+            <label htmlFor="user_name" className="block mb-1 font-semibold">
               Name
             </label>
             <input
@@ -72,7 +72,7 @@ const Contact = () => {
             />
           </div>
           <div>
-            <label htmlFor="user_email" className="block mb-1">
+            <label htmlFor="user_email" className="block mb-1 font-semibold">
               Email
             </label>
             <input
@@ -83,7 +83,7 @@ const Contact = () => {
             />
           </div>
           <div>
-            <label htmlFor="message" className="block mb-1">
+            <label htmlFor="message" className="block mb-1 font-semibold">
               Message
             </label>
             <textarea
@@ -96,22 +96,24 @@ const Contact = () => {
           <div className="flex justify-center">
             <button
               type="submit"
-              style={{ 
-                backgroundColor: 'orange', 
-                borderRadius: '10%', 
-                border: '1px solid var(--dark-700)', 
-                padding: '20px 60px', 
-                color: 'white', 
-                fontWeight: 'bold', 
-                outline: 'none',
-                boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
-                transition: 'background-color 0.3s',
-                display: 'inline-block',
-                textAlign: 'center',
-                fontSize: '1.25rem' // Increase the font size for a bigger button
+              style={{
+                backgroundColor: '#F97316',
+                color: 'white',
+                fontWeight: 'bold',
+                padding: '0.5rem 1rem',
+                borderRadius: '9999px',
+                boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+                transition: 'all 0.3s ease-in-out',
+                transform: 'scale(1)',
               }}
-              onMouseEnter={(e) => e.target.style.backgroundColor = 'darkorange'}
-              onMouseLeave={(e) => e.target.style.backgroundColor = 'orange'}
+              onMouseEnter={(e) => {
+                e.target.style.backgroundColor = '#EA580C';
+                e.target.style.transform = 'scale(1.05)';
+              }}
+              onMouseLeave={(e) => {
+                e.target.style.backgroundColor = '#F97316';
+                e.target.style.transform = 'scale(1)';
+              }}
             >
               Send
             </button>
