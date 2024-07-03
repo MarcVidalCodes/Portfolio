@@ -18,7 +18,7 @@ function TabBar() {
   if (tabs.tabList.length < 1) return;
 
   return (
-    <div ref={scrollRef} className="bg-dark-700 flex font-medium text-lg h-[50px] grow select-none overflow-x-auto scrollbar-hide">
+    <div ref={scrollRef} className="bg-dark-600 flex font-medium text-lg h-[50px] grow select-none overflow-x-auto scrollbar-hide">
       {tabs.tabList.map((tab) => (<Tab tab={tab} key={tab.name} />))}
     </div>
   )

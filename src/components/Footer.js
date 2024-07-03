@@ -9,7 +9,7 @@ import ReactIcon from './icons/ReactIcon';
 const Footer = () => (
   <>
     <div className="h-0.5 bg-gray-600"></div>
-    <footer className="bg-dark-700 text-white flex items-center justify-between px-4 py-2 h-8 hidden md:flex">
+    <footer className="bg-dark-600 text-white flex items-center justify-between px-4 py-2 h-8 hidden md:flex">
       <div className="flex items-center">
         <a
           href="https://github.com/MarcVidalCodes/Portfolio"

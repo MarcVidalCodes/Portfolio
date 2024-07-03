@@ -19,7 +19,7 @@ function Titlebar() {
 
   return (
     <>
-      <div className="bg-dark-700 text-white flex items-center justify-between px-4 py-2 h-8 relative">
+      <div className="bg-dark-600 text-white flex items-center justify-between px-4 py-2 h-8 relative">
         <div className="flex items-center space-x-4">
           <img src={vscodeIcon} alt="VS Code Icon" className="w-4 h-4" />
           {showMenuItems && (

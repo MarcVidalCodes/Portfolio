@@ -7,11 +7,11 @@ function Tab({ tab }) {
   const tabs = useTabContext();
   const selected = tabs.current.name === tab.name;
 
-  const defaultClasses = "relative min-w-[175px] px-4 mr-[2px] h-full flex justify-center items-center border-t-2 border-transparent focus-within:bg-dark-500";
-  const selectedClasses = { 'border-t-pink': selected, 'bg-dark-500': selected, 'bg-dark-600': !selected };
+  const defaultClasses = "relative min-w-[175px] px-4 mr-[1px] h-full flex justify-center items-center border-t-2 border-transparent focus-within:bg-dark-500";
+  const selectedClasses = { 'border-t-pink': selected, 'bg-dark-500': selected, 'bg-dark-600': !selected, 'border-l-2 border-r-2 border-dark-400': !selected, 'border-l-2 border-r-2 border-t-2 border-pink': selected };
   const mergedClasses = classNames(defaultClasses, selectedClasses);
 
-  const tabWidth = `${tab.name.length * 10 + 50}px`; // Adjust the multiplier and base value as needed
+  const tabWidth = `${tab.name.length * 12 + 50}px`; // Adjust the multiplier and base value as needed
 
   return (
     <span className={mergedClasses} data-tab={`${tab.name}`} style={{ minWidth: tabWidth }}>
@@ -28,3 +28,4 @@ function Tab({ tab }) {
 }
 
 export default Tab;
+

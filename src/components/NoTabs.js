@@ -10,12 +10,6 @@ function NoTabs() {
           <KeyboardIcon>⌘</KeyboardIcon>
           <KeyboardIcon>B</KeyboardIcon>
         </div>
-        <span className="text-right">Throw Confetti!!</span>
-        <div className="flex gap-x-2 items-center">
-          <KeyboardIcon>⇧</KeyboardIcon>
-          <KeyboardIcon>⌘</KeyboardIcon>
-          <KeyboardIcon>K</KeyboardIcon>
-        </div>
       </div>
     </div>
   );

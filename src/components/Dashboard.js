@@ -8,9 +8,8 @@ import { Bars3Icon } from '@heroicons/react/20/solid';
 import Navbar from './Navbar';
 import DirectoryList from './sidebar/DirectoryList';
 import { directory } from '../utils/directory';
-import JSConfetti from 'js-confetti';
-import TitleBar from './Titlebar'; // Import the TitleBar component here
-import Footer from './Footer'; // Import the Footer component here
+import TitleBar from './Titlebar'; 
+import Footer from './Footer'; 
 
 function Dashboard() {
   const tabs = useTabContext();
@@ -31,11 +30,6 @@ function Dashboard() {
       if (e.key === 'b' && e.metaKey) {
         window.innerWidth < 768 ? toggleDrawer() : toggleSidebar();
       }
-
-      if (e.key === 'k' && e.metaKey && e.shiftKey) {
-        const jsConfetti = new JSConfetti();
-        jsConfetti.addConfetti({ confettiColors: ['#8be9fd', '#50fa7b', '#ff5555', '#ff79c6', '#bd93f9', '#f1fa8c'] });
-      }
     };
 
     window.addEventListener('keydown', keyboardShortcuts);
@@ -51,7 +45,7 @@ function Dashboard() {
       {/* Main content with Sidebar and Drawer */}
       <div className="flex flex-1 overflow-hidden">
         {/* Desktop Sidebar */}
-        <div className="md:block hidden bg-dark-600">
+        <div className="md:block hidden bg-dark-600 border-r-2 border-dark-400">
           <button onClick={toggleSidebar} className="min-h-[50px] min-w-[50px] bg-dark-600 flex items-center px-3 outline-none group">
             <Bars3Icon className="text-white-50a w-6 h-6 group-focus:text-white-75a" />
           </button>
@@ -86,3 +80,4 @@ function Dashboard() {
 }
 
 export default Dashboard;
+
