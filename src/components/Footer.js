@@ -4,6 +4,7 @@ import ErrorIcon from './icons/ErrorIcon';
 import BellIcon from './icons/BellIcon';
 import WarningIcon from './icons/WarningIcon';
 import CheckIcon from './icons/CheckIcon';
+import ReactIcon from './icons/ReactIcon';
 
 const Footer = () => (
   <>
@@ -25,9 +26,10 @@ const Footer = () => (
         <p className="m-0 ml-2 text-white">0</p>
       </div>
       <div className="flex items-center">
-        <p className="m-0 mr-4 text-white hidden sm:block">Powered by React.js</p>
+        <ReactIcon className="mr-2 hidden sm:block" />
+        <p className="m-0 mr-6 text-white hidden sm:block">Made with React</p>
         <CheckIcon className="mr-4 hidden sm:block" />
-        <p className="m-0 mr-4 text-white hidden sm:block">Prettier</p>
+        <p className="m-0 mr-2 text-white hidden sm:block">Prettier</p>
         <BellIcon />
       </div>
     </footer>
@@ -35,3 +37,4 @@ const Footer = () => (
 );
 
 export default Footer;
+
