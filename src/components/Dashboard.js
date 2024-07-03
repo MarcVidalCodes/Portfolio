@@ -10,6 +10,7 @@ import DirectoryList from './sidebar/DirectoryList';
 import { directory } from '../utils/directory';
 import JSConfetti from 'js-confetti';
 import TitleBar from './Titlebar'; // Import the TitleBar component here
+import Footer from './Footer'; // Import the Footer component here
 
 function Dashboard() {
   const tabs = useTabContext();
@@ -78,6 +79,8 @@ function Dashboard() {
           }
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }
