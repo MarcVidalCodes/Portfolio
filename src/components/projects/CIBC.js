@@ -19,6 +19,7 @@ function Dice() {
         monitor and control their childrens spending. Parents can choose to give their children allowance and even set an allowance frequency. 
         Parents can monitor their finances through AI financial insights. Lastly, parents are able to view a full history of their childrens finances on the 
         activity tracker on the dashboard."
+        githubLink="https://github.com/MarcVidalCodes/CIBCParentWebApp.git"
       />
       <ProjectPreview src={cibc1} alt="cibc" />
       <ProjectPreview src={cibc2} alt="cibc" />
