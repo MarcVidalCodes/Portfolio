@@ -4,7 +4,7 @@ import LineBreak from './LineBreak';
 import Section from './Section';
 import Text from './Text';
 import Link from './Link';
-import { finance, outfit, ecom, dice, cibc } from '../utils/directory';
+import { finance, terra, ecom, dice, cibc } from '../utils/directory';
 import TabLink from './TabLink';
 
 function WhatsNext() {
@@ -16,6 +16,10 @@ function WhatsNext() {
             <MarkdownHeader headingLevel="1" text="Projects Home" className="text-2xl md:text-5xl font-bold text-center mb-6 text-white" />
             <LineBreak />
             <Text className="text-lg text-center mb-4 text-gray-300">Here are some quick links to my projects:</Text>
+            <div className="flex items-center justify-between bg-dark-500 p-4 rounded-lg shadow-md">
+                <TabLink tab={terra} className="text-link font-normal text-pink-500">TerraSphere</TabLink>
+                <span className="ml-5 text-gray-400">~/Submitted to TerraHacks</span>
+              </div>
             <div className="space-y-4">
               <div className="flex items-center justify-between bg-dark-500 p-4 rounded-lg shadow-md">
                 <TabLink tab={cibc} className="text-link font-normal text-pink-500">CIBC Parent Portal</TabLink>
@@ -26,12 +30,8 @@ function WhatsNext() {
                 <span className="ml-5 text-gray-400">~/Flutter App</span>
               </div>
               <div className="flex items-center justify-between bg-dark-500 p-4 rounded-lg shadow-md">
-                <TabLink tab={outfit} className="text-link font-normal text-pink-500">Outfit Forecast</TabLink>
-                <span className="ml-5 text-gray-400">~/Inspire your fit</span>
-              </div>
-              <div className="flex items-center justify-between bg-dark-500 p-4 rounded-lg shadow-md">
                 <TabLink tab={ecom} className="text-link font-normal text-pink-500">Ecommerce Store</TabLink>
-                <span className="ml-5 text-gray-400">~/Java App</span>
+                <span className="ml-5 text-gray-400">~/Java Project</span>
               </div>
               <div className="flex items-center justify-between bg-dark-500 p-4 rounded-lg shadow-md">
                 <TabLink tab={dice} className="text-link font-normal text-pink-500">Dice</TabLink>

@@ -17,7 +17,6 @@ function About() {
         <LineBreak />
         <Text>Hi! My name is Marc Vidal. I am a full stack software engineer, currently pursuing my Bachelor of Science in Computer Science from Carleton University, with my stream being in artificial intelligence and machine learning. </Text>
         <Text>This portfolio website is inspired by my favourite code editor, Visual Studio Code and created with React.js. </Text>
-        <Text>I am always eager to learn. Right now, I am learning Swift and SwiftUI in hopes of publishing my own app on the App Store!</Text>
         <Text>
         <span className="font-bold text-pink">Interests/Hobbies: </span> 
         Playing basketball, sports cars, strategy games, collecting action figures, and swimming. I also love going on walks with my dog, Hershey!</Text>

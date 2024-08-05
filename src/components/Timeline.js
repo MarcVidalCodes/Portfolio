@@ -2,22 +2,30 @@ import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import webdevcert from '../assets/images/webdevcert.jpg'
-
+import ter1 from '../assets/images/portfolio/ter1.png';
+import TabLink from './TabLink'; 
+import { terra } from '../utils/directory'; 
 
 function Timeline() {
   return (
     <VerticalTimeline>
-      <VerticalTimelineElement
-        className="vertical-timeline-element--work"
-        date="June 2024 - Present"
-        iconStyle={{ background: 'rgb(138, 90, 250)', color: '#fff' }}
-      >
-        <h3 className="vertical-timeline-element-title" style={{ color: 'black' }}>IOS App Developer Bootcamp</h3>
-        <h4 className="vertical-timeline-element-subtitle" style={{ color: 'black' }}>Udemy - ONLINE</h4>
-        <p style={{ color: 'black' }}>Course Taught by Dr Angela Yu</p>
-        <p style={{ color: 'black' }}>Topics include: Swift, SwiftUI, Augmented Reality, Persistent Local Data Storage, In-App Purchases, Software Design, etc. 
-        </p>
-      </VerticalTimelineElement>
+     <VerticalTimelineElement
+      className="vertical-timeline-element--work"
+      date="August 2024"
+      iconStyle={{ background: 'rgb(138, 90, 250)', color: '#fff' }}
+    >
+      <h3 className="vertical-timeline-element-title" style={{ color: 'black' }}>TerraSphere</h3>
+      <h4 className="vertical-timeline-element-subtitle" style={{ color: 'black' }}>TMU, Toronto</h4>
+      <p style={{ color: 'black' }}>Project submitted to TerraHacks</p>
+      <p style={{ color: 'black' }}>"Even LeBron didn't win his first season". Although I did not win my first hackathon, I am very proud of what my team and I have achieved. I was able to successfully lead my team to complete a polished and fully functional app.</p>
+      <p style={{ color: 'black' }}>
+        Check out the <TabLink tab="https://devpost.com/software/terrasphere?ref_content=user-portfolio&ref_feature=in_progress" className="text-link font-normal text-blue-500">DevPost</TabLink>!
+      </p>
+      <p style={{ color: 'black' }}>
+        Or, open the <TabLink tab={terra} className="text-link font-normal text-blue-500">Project</TabLink>!
+      </p>
+      <img src={ter1} alt="TerraSphere Preview" style={{ border: '2px solid black', marginTop: '30px' }} />
+    </VerticalTimelineElement>
        <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="January 2024 - June 2024"
