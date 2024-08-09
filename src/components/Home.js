@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from './Section';
 import Text from './Text';
-import { about, contact, whatsnext } from '../utils/directory'
+import { about, contact, whatsnext, skills } from '../utils/directory'
 import LineBreak from './LineBreak';
 import TabLink from './TabLink';
 
@@ -35,12 +35,16 @@ function Home() {
           <span className="ml-5">~/background_information</span>
         </div>
         <div>
-          <TabLink tab={contact} className="text-link font-normal">Contact</TabLink>
-          <span className="ml-5">~/lets_chat</span>
+          <TabLink tab={skills} className="text-link font-normal">Technologies</TabLink>
+          <span className="ml-5">~/my_skills</span>
         </div>
         <div>
           <TabLink tab={whatsnext} className="text-link font-normal">Projects</TabLink>
           <span className="ml-5">~/see_my_projects</span>
+        </div>
+        <div>
+          <TabLink tab={contact} className="text-link font-normal">Contact</TabLink>
+          <span className="ml-5">~/lets_chat</span>
         </div>
       </Section>
     </div>

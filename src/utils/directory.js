@@ -9,6 +9,7 @@ import CIBC from '../components/projects/CIBC';
 import Finance from '../components/projects/Finance'
 import Terra from '../components/projects/TerraSphere'
 import Ecom from '../components/projects/Ecommerce'
+import Skill from '../components/Skills'
 
 
 const about = { name: 'About', type: 'file', extension: 'js', component: <About /> }
@@ -21,6 +22,7 @@ const terra = { name: 'TerraSphere', type: 'file', extension: 'jsx', component: 
 const whatsnext = { name: 'ProjectsHome', type: 'file', extension: 'html', component: <WhatsNext /> }
 const timeline = { name: 'MyTimeline', type: 'file', extension: 'js', component: <Timeline /> }
 const finance = { name: 'FinanceTracker', type: 'file', extension: 'jsx', component: <Finance /> }
+const skills = {name: 'Skills', type:'file', extension: 'js', component: <Skill /> }
 
 const directory = [{
   name: 'marc_vidal_portfolio',
@@ -28,6 +30,7 @@ const directory = [{
   children: [
     home,
     about,
+    skills,
     timeline,
     {
       name: 'projects',
@@ -56,5 +59,6 @@ export {
   directory,
   dice,
   ecom,
-  timeline
+  timeline,
+  skills
 };

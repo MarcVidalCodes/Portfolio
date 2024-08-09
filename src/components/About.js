@@ -8,7 +8,6 @@ import Comment from './Comment';
 import {contact } from '../utils/directory'
 import TabLink from './TabLink';
 
-
 function About() {
   return (
     <div>
@@ -24,28 +23,6 @@ function About() {
       </Section>
 
 
-      <Section>
-        <MarkdownHeader headingLevel="2" text="Technologies" className="text-xl md:text-3xl" />
-        <LineBreak />
-        <Comment>
-        I am constantly looking to expand my toolkit and am open to working with and learning new skills!
-        </Comment>
-        <Text>
-          <span className="font-bold text-pink">Front-end: </span> HTML, CSS, TailwindCSS, Javascript, React.js, React Native
-        </Text>
-        <Text>
-          <span className="font-bold text-pink">Back-end: </span> Node.js, MongoDB, Firebase, Express.js, SQLite
-        </Text>
-        <Text>
-          <span className="font-bold text-pink">App Development: </span> Swift/SwiftUI, React Native, Flutter
-        </Text>
-        <Text>
-          <span className="font-bold text-pink">Languages: </span> Python, Java, C++
-        </Text>
-        <Text>
-          <span className="font-bold text-pink">Miscellaneous:</span> Git, Figma, Object-Oriented Programming and Design, Full Stack Web Development, REST APIs
-        </Text>
-      </Section>
 
       <Section>
         <MarkdownHeader headingLevel="2" text="Coursework" className="text-xl md:text-3xl" />
