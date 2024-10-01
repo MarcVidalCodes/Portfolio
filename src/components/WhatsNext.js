@@ -4,7 +4,7 @@ import LineBreak from './LineBreak';
 import Section from './Section';
 import Text from './Text';
 import Link from './Link';
-import { finance, terra, ecom, dice, cibc } from '../utils/directory';
+import { terra, ecom, dice, cibc,hth } from '../utils/directory';
 import TabLink from './TabLink';
 
 function WhatsNext() {
@@ -17,6 +17,10 @@ function WhatsNext() {
             <LineBreak />
             <Text className="text-lg text-center mb-4 text-gray-300">Here are some quick links to my projects:</Text>
             <div className="flex items-center justify-between bg-dark-500 p-4 rounded-lg shadow-md">
+                <TabLink tab={hth} className="text-link font-normal text-pink-500">RelaxED AI</TabLink>
+                <span className="ml-5 text-gray-400">~/Hackathon Winner</span>
+              </div>
+            <div className="flex items-center justify-between bg-dark-500 p-4 rounded-lg shadow-md">
                 <TabLink tab={terra} className="text-link font-normal text-pink-500">TerraSphere</TabLink>
                 <span className="ml-5 text-gray-400">~/Submitted to TerraHacks</span>
               </div>
@@ -24,10 +28,6 @@ function WhatsNext() {
               <div className="flex items-center justify-between bg-dark-500 p-4 rounded-lg shadow-md">
                 <TabLink tab={cibc} className="text-link font-normal text-pink-500">CIBC Parent Portal</TabLink>
                 <span className="ml-5 text-gray-400">~/Developed for MBA consulting team</span>
-              </div>
-              <div className="flex items-center justify-between bg-dark-500 p-4 rounded-lg shadow-md">
-                <TabLink tab={finance} className="text-link font-normal text-pink-500">Finance Tracker</TabLink>
-                <span className="ml-5 text-gray-400">~/Flutter App</span>
               </div>
               <div className="flex items-center justify-between bg-dark-500 p-4 rounded-lg shadow-md">
                 <TabLink tab={ecom} className="text-link font-normal text-pink-500">Ecommerce Store</TabLink>

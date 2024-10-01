@@ -4,11 +4,38 @@ import 'react-vertical-timeline-component/style.min.css';
 import webdevcert from '../assets/images/webdevcert.jpg'
 import ter1 from '../assets/images/portfolio/ter1.png';
 import TabLink from './TabLink'; 
-import { terra } from '../utils/directory'; 
+import { terra, hth } from '../utils/directory'; 
+import hth1 from '../assets/images/portfolio/hth1.jpeg';
 
 function Timeline() {
   return (
     <VerticalTimeline>
+           <VerticalTimelineElement
+      className="vertical-timeline-element--work"
+      date="September 2024"
+      iconStyle={{ background: 'orange', color: '#fff' }}
+    >
+      <h3 className="vertical-timeline-element-title" style={{ color: 'black' }}>RelaxED AI</h3>
+      <h4 className="vertical-timeline-element-subtitle" style={{ color: 'black' }}>UOttawa, Ottawa</h4>
+      <p style={{ color: 'black' }}>Project submitted to Hack the Hill</p>
+      <p style={{ color: 'black' }}>Won my second hackathon! 2nd place in Best Hardware Hack! </p>
+      <p style={{ color: 'black' }}>
+        Check out the <TabLink tab="https://devpost.com/software/relaxed-ai?ref_content=user-portfolio&ref_feature=in_progress" className="text-link font-normal text-blue-500">DevPost</TabLink>!
+      </p>
+      <p style={{ color: 'black' }}>
+        Or, open the <TabLink tab={hth} className="text-link font-normal text-blue-500">Project</TabLink>!
+      </p>
+      <img src={hth1} alt="hth" style={{ border: '2px solid black', marginTop: '30px' }} />
+    </VerticalTimelineElement>
+           <VerticalTimelineElement
+      className="vertical-timeline-element--work"
+      date="September 2024 - present"
+      iconStyle={{ background: 'pink', color: '#fff' }}
+    >
+      <h3 className="vertical-timeline-element-title" style={{ color: 'black' }}>BlackBird UAV</h3>
+      <h4 className="vertical-timeline-element-subtitle" style={{ color: 'black' }}>Carleton University, Ottawa</h4>
+      <p style={{ color: 'black' }}>Member of the systems/automation team</p>
+    </VerticalTimelineElement>
      <VerticalTimelineElement
       className="vertical-timeline-element--work"
       date="August 2024"

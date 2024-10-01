@@ -6,10 +6,10 @@ import Dice from '../components/projects/Dice';
 import WhatsNext from '../components/WhatsNext'
 import Timeline from '../components/Timeline';
 import CIBC from '../components/projects/CIBC';
-import Finance from '../components/projects/Finance'
 import Terra from '../components/projects/TerraSphere'
 import Ecom from '../components/projects/Ecommerce'
 import Skill from '../components/Skills'
+import HTH from '../components/projects/hth';
 
 
 const about = { name: 'About', type: 'file', extension: 'js', component: <About /> }
@@ -21,8 +21,8 @@ const cibc = { name: 'ParentBanking', type: 'file', extension: 'jsx', component:
 const terra = { name: 'TerraSphere', type: 'file', extension: 'jsx', component: <Terra /> }
 const whatsnext = { name: 'ProjectsHome', type: 'file', extension: 'html', component: <WhatsNext /> }
 const timeline = { name: 'MyTimeline', type: 'file', extension: 'js', component: <Timeline /> }
-const finance = { name: 'FinanceTracker', type: 'file', extension: 'jsx', component: <Finance /> }
 const skills = {name: 'Skills', type:'file', extension: 'js', component: <Skill /> }
+const hth = { name: 'RelaxEDai', type: 'file', extension: 'jsx', component: <HTH /> }
 
 const directory = [{
   name: 'marc_vidal_portfolio',
@@ -37,9 +37,9 @@ const directory = [{
       type: 'folder',
       children: [
         whatsnext,
+        hth,
         terra,
         cibc,
-        finance,
         ecom,
           dice
       ] 
@@ -51,8 +51,8 @@ const directory = [{
 export {
   whatsnext,
   about,
-  finance,
   cibc,
+  hth,
   home,
   contact,
   terra,
