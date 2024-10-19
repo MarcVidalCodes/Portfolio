@@ -85,13 +85,13 @@ function Skills() {
                 Tailwind CSS
               </div>
             </div>
-            <div className="relative group text-center flex flex-col items-center">
+            {/* <div className="relative group text-center flex flex-col items-center">
               <div className="mb-2">C++</div>
               <CPlusIcon className="w-32 h-32 rounded-md" />
               <div className="absolute inset-0 flex items-center justify-center text-white bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity rounded-md">
                 C++
               </div>
-            </div>
+            </div> */}
             <div className="relative group text-center flex flex-col items-center">
               <div className="mb-2">Express.js</div>
               <ExpressIcon className="w-32 h-32 rounded-md" />

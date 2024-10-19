@@ -9,9 +9,9 @@ import TabLink from './TabLink';
 
 function WhatsNext() {
   return (
-    <div className="p-6 space-y-6 max-w-4xl mx-auto">
+    <div className="p-20 items-center max-w-4xl mx-auto">
       <div className="flex flex-col md:flex-row items-center justify-between">
-        <div className="p-6 rounded-lg shadow-lg bg-dark-600 md:w-2/3">
+        <div className="p-6 rounded-lg shadow-lg bg-dark-600">
           <Section>
             <MarkdownHeader headingLevel="1" text="Projects Home" className="text-2xl md:text-5xl font-bold text-center mb-6 text-white" />
             <LineBreak />
@@ -40,9 +40,9 @@ function WhatsNext() {
             </div>
           </Section>
         </div>
-        <div className="p-6 rounded-lg shadow-lg bg-dark-600 flex justify-center items-center mt-6 md:mt-0 md:ml-6" style={{ maxWidth: '900px' }}>
+        {/* <div className="p-6 rounded-lg shadow-lg bg-dark-600 flex justify-center items-center mt-6 md:mt-0 md:ml-6" style={{ maxWidth: '900px' }}>
           <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MarcVidalCodes&layout=compact&theme=dark" alt="Most Used Languages" className="rounded-lg shadow-md w-full" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

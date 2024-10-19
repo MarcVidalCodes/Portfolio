@@ -9,7 +9,17 @@ import hth1 from '../assets/images/portfolio/hth1.jpeg';
 
 function Timeline() {
   return (
+    
     <VerticalTimeline>
+                 <VerticalTimelineElement
+      className="vertical-timeline-element--work"
+      date="September 2024"
+      iconStyle={{ background: 'pink', color: '#fff' }}
+    >
+      <h3 className="vertical-timeline-element-title" style={{ color: 'black' }}>Web Developer</h3>
+      <h4 className="vertical-timeline-element-subtitle" style={{ color: 'black' }}>Blackbird UAV</h4>
+      <p style={{ color: 'black' }}>Project submitted to Hack the Hill</p>
+    </VerticalTimelineElement>
            <VerticalTimelineElement
       className="vertical-timeline-element--work"
       date="September 2024"
@@ -26,15 +36,6 @@ function Timeline() {
         Or, open the <TabLink tab={hth} className="text-link font-normal text-blue-500">Project</TabLink>!
       </p>
       <img src={hth1} alt="hth" style={{ border: '2px solid black', marginTop: '30px' }} />
-    </VerticalTimelineElement>
-           <VerticalTimelineElement
-      className="vertical-timeline-element--work"
-      date="September 2024 - present"
-      iconStyle={{ background: 'pink', color: '#fff' }}
-    >
-      <h3 className="vertical-timeline-element-title" style={{ color: 'black' }}>BlackBird UAV</h3>
-      <h4 className="vertical-timeline-element-subtitle" style={{ color: 'black' }}>Carleton University, Ottawa</h4>
-      <p style={{ color: 'black' }}>Member of the systems/automation team</p>
     </VerticalTimelineElement>
      <VerticalTimelineElement
       className="vertical-timeline-element--work"
