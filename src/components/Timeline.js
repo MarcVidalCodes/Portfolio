@@ -18,7 +18,6 @@ function Timeline() {
     >
       <h3 className="vertical-timeline-element-title" style={{ color: 'black' }}>Web Developer</h3>
       <h4 className="vertical-timeline-element-subtitle" style={{ color: 'black' }}>Blackbird UAV</h4>
-      <p style={{ color: 'black' }}>Project submitted to Hack the Hill</p>
     </VerticalTimelineElement>
            <VerticalTimelineElement
       className="vertical-timeline-element--work"
