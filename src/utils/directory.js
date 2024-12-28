@@ -19,9 +19,9 @@ const dice = { name: 'Dice', type: 'file', extension: 'jsx', component: <Dice />
 const ecom = { name: 'Ecommerce', type: 'file', extension: 'jsx', component: <Ecom /> }
 const cibc = { name: 'ParentBanking', type: 'file', extension: 'jsx', component: <CIBC /> }
 const terra = { name: 'TerraSphere', type: 'file', extension: 'jsx', component: <Terra /> }
-const whatsnext = { name: 'ProjectsHome', type: 'file', extension: 'html', component: <WhatsNext /> }
-const timeline = { name: 'MyTimeline', type: 'file', extension: 'js', component: <Timeline /> }
-const skills = {name: 'Skills', type:'file', extension: 'js', component: <Skill /> }
+const whatsnext = { name: 'MyProjects', type: 'file', extension: 'css', component: <WhatsNext /> }
+const timeline = { name: 'Experience', type: 'file', extension: 'html', component: <Timeline /> }
+const skills = {name: 'Skills', type:'file', extension: 'txt', component: <Skill /> }
 const hth = { name: 'RelaxEDai', type: 'file', extension: 'jsx', component: <HTH /> }
 
 const directory = [{
@@ -30,13 +30,13 @@ const directory = [{
   children: [
     home,
     about,
-    skills,
     timeline,
+    whatsnext,
+    skills,
     {
       name: 'projects',
       type: 'folder',
       children: [
-        whatsnext,
         hth,
         terra,
         cibc,

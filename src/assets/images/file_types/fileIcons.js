@@ -8,6 +8,7 @@ import js from './javascript.svg';
 import rb from './ruby.svg';
 import json from './json.svg';
 import jsx from './react_icon.svg'
+import c from './The_C_Programming_Language_logo.svg.png';
 
 export const fileIcons = {
   css,
@@ -19,5 +20,6 @@ export const fileIcons = {
   md,
   rb,
   jsx,
-  json
+  json,
+  c
 }

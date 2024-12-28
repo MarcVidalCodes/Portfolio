@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from './Section';
 import Text from './Text';
-import { about, contact, whatsnext, skills } from '../utils/directory'
+import { about, contact, whatsnext, skills, timeline } from '../utils/directory';
 import LineBreak from './LineBreak';
 import TabLink from './TabLink';
 
@@ -24,6 +24,7 @@ function Home() {
         <Text>
           Navigate my portfolio by clicking the menu button and exploring through the various content tabs!
         </Text>
+        <Text>Better Experience on Desktop!</Text>
       </Section>
 
       <Section className="space-y-2">
@@ -33,6 +34,10 @@ function Home() {
         <div>
           <TabLink tab={about} className="text-link font-normal">About</TabLink>
           <span className="ml-5">~/background_information</span>
+        </div>
+        <div>
+          <TabLink tab={timeline} className="text-link font-normal">Experience</TabLink>
+          <span className="ml-5">~/my_experience</span>
         </div>
         <div>
           <TabLink tab={skills} className="text-link font-normal">Technologies</TabLink>
