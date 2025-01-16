@@ -40,6 +40,17 @@ function About() {
           <span className="font-bold text-pink">MATH1104, Linear Algebra for Engineering and Science:</span> 12.0/12.0 (A+)
         </Text>
         
+
+        <Text>
+          <span className="font-bold text-pink">COMP2401, Intro to Systems Programing:</span> 11.0/12.0 (A)
+        </Text>
+        <Text>
+          <span className="font-bold text-pink">COMP2402, Data Structures and Algorithms:</span> 11.0/12.0 (A)
+        </Text>
+        <Text>
+          <span className="font-bold text-pink">STAT2507, Intro to Statistics:</span> 11.0/12.0 (A)
+        </Text>
+
       </Section>
     </div>
   )
