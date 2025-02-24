@@ -17,7 +17,7 @@ function WhatsNext() {
     {
       image: uavImage,
       title: 'Blackbird UAV Website',
-      description: 'Website created for BlackBirdUAV to garner sponsorship attention. I worked on the home page, vehicle page, and navbar. Still in development as of Dec 28, 2024.',
+      description: 'Website created for BlackBirdUAV to garner sponsorship attention. Worked on home page, vehicle page, teams page, website navigation, and mobile support',
       techStack: [
         { name: '#HTML', color: 'bg-blue' },
         { name: '#CSS', color: 'bg-purple' },

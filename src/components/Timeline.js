@@ -30,7 +30,7 @@ function Timeline() {
         {isMobile && <p className="timeline-date" style={{ color: 'black' }}>September 2024 - January 2025</p>}
         <h3 className="vertical-timeline-element-title" style={{ color: 'black' }}>Web Developer</h3>
         <h4 className="vertical-timeline-element-subtitle" style={{ color: 'black' }}>Blackbird UAV</h4>
-        <p style={{ color: 'black' }}>Home Page, Vehicle Page, and Navbar</p>
+        <p style={{ color: 'black' }}>Worked on home page, vehicles page, teams page, website navigation, and mobile support</p>
         <p style={{ color: 'black' }}>
           Check it out: <TabLink tab="https://dev.blackbirduav.ca" className="text-link font-normal text-blue-500">BlackBirdUAV Website</TabLink>
         </p>
