@@ -4,9 +4,10 @@ import 'react-vertical-timeline-component/style.min.css';
 import webdevcert from '../assets/images/webdevcert.jpg';
 import ter1 from '../assets/images/portfolio/ter1.png';
 import TabLink from './TabLink';
-import { terra, hth } from '../utils/directory';
+import { terra, hth, cu } from '../utils/directory';
 import hth1 from '../assets/images/portfolio/hth1.jpeg';
 import uav from '../assets/images/portfolio/bbuav1.png';
+import cu1 from '../assets/images/portfolio/cu1.jpg';
 
 function Timeline() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -24,10 +25,47 @@ function Timeline() {
     <VerticalTimeline>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
+        date="May 2025 - August 2025"
+        iconStyle={{ background: 'red', color: '#fff' }}
+      >
+        {isMobile && <p className="timeline-date" style={{ color: 'black' }}>May 2025 - August 2025</p>}
+        <h3 className="vertical-timeline-element-title" style={{ color: 'black' }}>Software Developer Co-op</h3>
+        <h4 className="vertical-timeline-element-subtitle">
+          <TabLink
+            tab="https://www.decisivedge.com"
+            className="text-link font-normal text-blue-100"
+          >
+            at DecisiveEdge
+          </TabLink>
+        </h4>
+        <p style={{ color: 'black' }}>Working with .NET Framework, C#, ASP.NET, SQL, Angular, and MongoDB</p>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="March 2025"
+        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+      >
+        {isMobile && <p className="timeline-date" style={{ color: 'black' }}>March 2025</p>}
+        <h3 className="vertical-timeline-element-title" style={{ color: 'black' }}>TagRoyale</h3>
+        <h4 className="vertical-timeline-element-subtitle" style={{ color: 'black' }}>Carleton University, Ottawa</h4>
+        <p style={{ color: 'black' }}>Project submitted to CuHacking</p>
+        <p style={{ color: 'black' }}>Won best crossover hack at CuHacking! Developed a location-based mobile game that transforms traditional tag into an immersive battle royale experience.</p>
+        <p style={{ color: 'black' }}>
+          Check out the <TabLink tab="https://devpost.com/software/tag-royale" className="text-link font-normal text-blue-500">DevPost</TabLink>!
+        </p>
+        <p style={{ color: 'black' }}>
+          Or, open the <TabLink tab={cu} className="text-link font-normal text-blue-500">Project</TabLink>!
+        </p>
+        <img src={cu1} alt="TagRoyale" style={{ border: '2px solid black', marginTop: '30px' }} />
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
         date="September 2024 - January 2025"
         iconStyle={{ background: 'pink', color: '#fff' }}
       >
-        {isMobile && <p className="timeline-date" style={{ color: 'black' }}>September 2024 - January 2025</p>}
+        {isMobile && <p className="timeline-date" style={{ color: 'black' }}>September 2024 - May 2025</p>}
         <h3 className="vertical-timeline-element-title" style={{ color: 'black' }}>Web Developer</h3>
         <h4 className="vertical-timeline-element-subtitle" style={{ color: 'black' }}>Blackbird UAV</h4>
         <p style={{ color: 'black' }}>Worked on home page, vehicles page, teams page, website navigation, and mobile support</p>
@@ -36,6 +74,7 @@ function Timeline() {
         </p>
         <img src={uav} alt="uav" style={{ border: '2px solid black', marginTop: '30px' }} />
       </VerticalTimelineElement>
+      
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="September 2024"
@@ -54,6 +93,7 @@ function Timeline() {
         </p>
         <img src={hth1} alt="hth" style={{ border: '2px solid black', marginTop: '30px' }} />
       </VerticalTimelineElement>
+      
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="August 2024"
@@ -72,6 +112,7 @@ function Timeline() {
         </p>
         <img src={ter1} alt="TerraSphere Preview" style={{ border: '2px solid black', marginTop: '30px' }} />
       </VerticalTimelineElement>
+      
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="January 2024 - June 2024"
@@ -86,6 +127,7 @@ function Timeline() {
         </p>
         <img src={webdevcert} alt="Resume" style={{ border: '2px solid black', marginTop: '30px' }} />
       </VerticalTimelineElement>
+      
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="September 2023 - present"
@@ -95,8 +137,8 @@ function Timeline() {
         <h3 className="vertical-timeline-element-title" style={{ color: 'black' }}>Computer Science Student</h3>
         <h4 className="vertical-timeline-element-subtitle" style={{ color: 'black' }}>Carleton University, Ottawa, ON</h4>
         <p style={{ color: 'black' }}>Machine learning and artificial intelligence stream</p>
-        <p style={{ color: 'black' }}>Current Major CGPA: 11.8/12 </p>
       </VerticalTimelineElement>
+      
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="Jan 2021 - July 2023"

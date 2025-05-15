@@ -4,13 +4,14 @@ import LineBreak from './LineBreak';
 import Section from './Section';
 import Text from './Text';
 import TabLink from './TabLink';
-import { terra, ecom as ecomTab, dice, cibc, hth } from '../utils/directory';
+import { terra, ecom as ecomTab, dice, cibc, hth, cu } from '../utils/directory';
 import hth1 from '../assets/images/portfolio/hth1.jpeg';
 import ter1 from '../assets/images/portfolio/ter1.png';
 import cibc1 from '../assets/images/portfolio/cibc1.png';
 import ecomImage from '../assets/images/portfolio/ecom.png';
 import diceImage from '../assets/images/portfolio/dice.png';
 import uavImage from '../assets/images/portfolio/bbuav1.png';
+import cu1 from '../assets/images/portfolio/cu1.jpg';
 
 function WhatsNext() {
   const projects = [
@@ -25,6 +26,21 @@ function WhatsNext() {
         { name: '#React', color: 'bg-blue' }
       ],
       link: 'https://dev.blackbirduav.ca'
+    },
+    {
+      tab: cu,
+      image: cu1,
+      title: 'TagRoyale',
+      description: 'A location-based mobile game that transforms traditional tag into an immersive battle royale experience. Won best crossover hack at CuHacking.',
+      techStack: [
+        { name: '#React Native', color: 'bg-blue' },
+        { name: '#TypeScript', color: 'bg-blue' },
+        { name: '#Express', color: 'bg-purple' },
+        { name: '#Socket.io', color: 'bg-red' },
+        { name: '#WebSockets', color: 'bg-green' },
+        { name: '#Geolocation API', color: 'bg-yellow' },
+        { name: '#React Navigation', color: 'bg-blue' }
+      ]
     },
     {
       tab: hth,

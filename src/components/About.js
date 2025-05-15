@@ -14,43 +14,32 @@ function About() {
       <Section>
         <MarkdownHeader headingLevel="1" text="About" className="text-3xl md:text-5xl" />
         <LineBreak />
-        <Text>Hi! My name is Marc Vidal. I am a full stack software engineer, currently pursuing my Bachelor of Science in Computer Science from Carleton University, with my stream being in artificial intelligence and machine learning. </Text>
-        <Text>This portfolio website is inspired by my favourite code editor, Visual Studio Code and created with React.js. </Text>
-        <Text>
-        <span className="font-bold text-pink">Interests/Hobbies: </span> 
-        Playing basketball, sports cars, strategy games, collecting action figures, and swimming. I also love going on walks with my dog, Hershey!</Text>
-        <Text>To reach out, see <TabLink className="font-bold text-yellow" tab={contact}>Contact.md</TabLink>.</Text>
-      </Section>
-
-
-
-      <Section>
-        <MarkdownHeader headingLevel="2" text="Coursework" className="text-xl md:text-3xl" />
-        <LineBreak />
-        <Text>
-          <span className="font-bold text-pink">COMP1405, Intro To Computer Science I:</span> 12.0/12.0 (A+)
-        </Text>
-        <Text>
-          <span className="font-bold text-pink">COMP1406, Intro To Computer Science II:</span> 12.0/12.0 (A+)
-        </Text>
-        <Text>
-          <span className="font-bold text-pink">COMP1805, Discrete Structures I:</span> 11.0/12.0 (A)
-        </Text>
-        <Text>
-          <span className="font-bold text-pink">MATH1104, Linear Algebra for Engineering and Science:</span> 12.0/12.0 (A+)
-        </Text>
+        <Text>Hi! My name is Marc Vidal. I am a full stack software engineer, currently working as a <span className="font-bold text-green-400">Software Developer at DecisiveEdge</span> where I work with .NET Framework, C#, ASP.NET, SQL, and Angular.</Text>
         
-
-        <Text>
-          <span className="font-bold text-pink">COMP2401, Intro to Systems Programing:</span> 11.0/12.0 (A)
-        </Text>
-        <Text>
-          <span className="font-bold text-pink">COMP2402, Data Structures and Algorithms:</span> 11.0/12.0 (A)
-        </Text>
-        <Text>
-          <span className="font-bold text-pink">STAT2507, Intro to Statistics:</span> 11.0/12.0 (A)
-        </Text>
-
+        <MarkdownHeader headingLevel="2" text="Background" className="text-2xl md:text-3xl mt-6" />
+        <Text>I'm pursuing my Bachelor of Science in Computer Science from Carleton University, with a specialization in artificial intelligence and machine learning. I'm particularly interested in developing innovative solutions that leverage both frontend and backend technologies.</Text>
+        
+        <MarkdownHeader headingLevel="2" text="About This Site" className="text-2xl md:text-3xl mt-6" />
+        <Text>This portfolio website is inspired by my favourite code editor, Visual Studio Code, and was built using React.js and Tailwind CSS. Feel free to explore the "project files" in the sidebar to learn more about my work!</Text>
+        
+        
+        <MarkdownHeader headingLevel="2" text="Interests & Hobbies" className="text-2xl md:text-3xl mt-6" />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <Text><span className="font-bold text-pink-400">🏀 Sports:</span> Playing basketball, swimming, and staying active</Text>
+            <Text><span className="font-bold text-yellow-400">🚗 Automotive:</span> Passionate about sports cars and automotive technology</Text>
+          </div>
+          <div>
+            <Text><span className="font-bold text-blue-400">🎮 Games:</span> Strategy games and competitive gaming</Text>
+            <Text><span className="font-bold text-purple-400">🐕 Pets:</span> Going on walks with my dog, Hershey!</Text>
+          </div>
+        </div>
+        
+        <MarkdownHeader headingLevel="2" text="Let's Connect" className="text-2xl md:text-3xl mt-6" />
+        <Text>I'm always open to discussing new projects, opportunities, or just chatting about technology. Feel free to reach out!</Text>
+        <div className="mt-4">
+          <TabLink className="inline-block px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded transition-colors" tab={contact}>Contact Me →</TabLink>
+        </div>
       </Section>
     </div>
   )

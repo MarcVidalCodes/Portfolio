@@ -10,6 +10,7 @@ import Terra from '../components/projects/TerraSphere'
 import Ecom from '../components/projects/Ecommerce'
 import Skill from '../components/Skills'
 import HTH from '../components/projects/hth';
+import TagRoyale from '../components/projects/TagRoyale';
 
 
 const about = { name: 'About', type: 'file', extension: 'js', component: <About /> }
@@ -23,6 +24,7 @@ const whatsnext = { name: 'MyProjects', type: 'file', extension: 'css', componen
 const timeline = { name: 'Experience', type: 'file', extension: 'html', component: <Timeline /> }
 const skills = {name: 'Skills', type:'file', extension: 'txt', component: <Skill /> }
 const hth = { name: 'RelaxEDai', type: 'file', extension: 'jsx', component: <HTH /> }
+const cu = { name: 'TagRoyale', type: 'file', extension: 'jsx', component: <TagRoyale /> }
 
 const directory = [{
   name: 'marc_vidal_portfolio',
@@ -37,11 +39,12 @@ const directory = [{
       name: 'projects',
       type: 'folder',
       children: [
+        cu,
         hth,
         terra,
         cibc,
         ecom,
-          dice
+        dice
       ] 
     },
     contact,
@@ -60,5 +63,6 @@ export {
   dice,
   ecom,
   timeline,
-  skills
+  skills,
+  cu
 };
