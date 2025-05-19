@@ -5,7 +5,6 @@ import Contact from '../components/Contact';
 import Dice from '../components/projects/Dice';
 import WhatsNext from '../components/WhatsNext'
 import Timeline from '../components/Timeline';
-import CIBC from '../components/projects/CIBC';
 import Terra from '../components/projects/TerraSphere'
 import Ecom from '../components/projects/Ecommerce'
 import Skill from '../components/Skills'
@@ -18,7 +17,6 @@ const home = { name: 'Home', type: 'file', extension: 'js', component: <Home /> 
 const contact = { name: 'Contact', type: 'file', extension: 'md', component: <Contact /> }
 const dice = { name: 'Dice', type: 'file', extension: 'jsx', component: <Dice /> }
 const ecom = { name: 'Ecommerce', type: 'file', extension: 'jsx', component: <Ecom /> }
-const cibc = { name: 'ParentBanking', type: 'file', extension: 'jsx', component: <CIBC /> }
 const terra = { name: 'TerraSphere', type: 'file', extension: 'jsx', component: <Terra /> }
 const whatsnext = { name: 'MyProjects', type: 'file', extension: 'css', component: <WhatsNext /> }
 const timeline = { name: 'Experience', type: 'file', extension: 'html', component: <Timeline /> }
@@ -42,7 +40,6 @@ const directory = [{
         cu,
         hth,
         terra,
-        cibc,
         ecom,
         dice
       ] 
@@ -54,7 +51,6 @@ const directory = [{
 export {
   whatsnext,
   about,
-  cibc,
   hth,
   home,
   contact,

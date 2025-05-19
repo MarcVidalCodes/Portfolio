@@ -4,10 +4,9 @@ import LineBreak from './LineBreak';
 import Section from './Section';
 import Text from './Text';
 import TabLink from './TabLink';
-import { terra, ecom as ecomTab, dice, cibc, hth, cu } from '../utils/directory';
+import { terra, ecom as ecomTab, dice, hth, cu } from '../utils/directory';
 import hth1 from '../assets/images/portfolio/hth1.jpeg';
 import ter1 from '../assets/images/portfolio/ter1.png';
-import cibc1 from '../assets/images/portfolio/cibc1.png';
 import ecomImage from '../assets/images/portfolio/ecom.png';
 import diceImage from '../assets/images/portfolio/dice.png';
 import uavImage from '../assets/images/portfolio/bbuav1.png';
@@ -18,7 +17,7 @@ function WhatsNext() {
     {
       image: uavImage,
       title: 'Blackbird UAV Website',
-      description: 'Website created for BlackBirdUAV to garner sponsorship attention. Worked on home page, vehicle page, teams page, website navigation, and mobile support',
+      description: 'Website created for BlackBirdUAV to garner sponsorship attention. Worked on home page, vehicle page, teams page, website navigation, and mobile support. This website helped the club secure over $12k in sponsorship money.',
       techStack: [
         { name: '#HTML', color: 'bg-blue' },
         { name: '#CSS', color: 'bg-purple' },
@@ -72,18 +71,6 @@ function WhatsNext() {
         { name: '#OPENAI Camera Vision API', color: 'bg-green' },
         { name: '#Google Maps API', color: 'bg-red' },
         { name: '#Tailwind CSS', color: 'bg-white' }
-      ]
-    },
-    {
-      tab: cibc,
-      image: cibc1,
-      title: 'CIBC Parent Portal',
-      description: 'A react project developed for an MBA consulting team at Western University, Ivey School of Business. A portal that allows parents to monitor and control their childrens spending.',
-      techStack: [
-        { name: '#React.js', color: 'bg-blue' },
-        { name: '#MongoDB', color: 'bg-green' },
-        { name: '#Express.js', color: 'bg-purple' },
-        { name: '#Node.js', color: 'bg-green' }
       ]
     },
     {
