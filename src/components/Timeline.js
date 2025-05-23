@@ -23,12 +23,28 @@ function Timeline() {
 
   return (
     <VerticalTimeline>
+            <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="Incoming September 2025 - December 2025"
+        iconStyle={{ background: 'yellow', color: '#fff' }}
+      >
+        {isMobile && <p className="timeline-date" style={{ color: 'black' }}>Incoming September 2025 - December 2025</p>}
+        <h3 className="vertical-timeline-element-title" style={{ color: 'black' }}>Engineering Business Analyst</h3>
+        <h4 className="vertical-timeline-element-subtitle">
+          <TabLink
+            tab="https://www.jsitelecom.com"
+            className="text-link font-normal text-blue-100"
+          >
+            at JSI Telecom
+          </TabLink>
+        </h4>
+      </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="Incoming June 2025 - August 2025"
+        date="June 2025 - August 2025"
         iconStyle={{ background: 'red', color: '#fff' }}
       >
-        {isMobile && <p className="timeline-date" style={{ color: 'black' }}>Incoming June 2025 - August 2025</p>}
+        {isMobile && <p className="timeline-date" style={{ color: 'black' }}>June 2025 - August 2025</p>}
         <h3 className="vertical-timeline-element-title" style={{ color: 'black' }}>Software Developer Intern</h3>
         <h4 className="vertical-timeline-element-subtitle">
           <TabLink
