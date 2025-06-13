@@ -29,7 +29,7 @@ function Timeline() {
         iconStyle={{ background: 'yellow', color: '#fff' }}
       >
         {isMobile && <p className="timeline-date" style={{ color: 'black' }}>Incoming September 2025 - December 2025</p>}
-        <h3 className="vertical-timeline-element-title" style={{ color: 'black' }}>Software Developer</h3>
+        <h3 className="vertical-timeline-element-title" style={{ color: 'black' }}>Software Developer Intern</h3>
         <h4 className="vertical-timeline-element-subtitle">
           <TabLink
             tab="https://www.jsitelecom.com"
@@ -55,7 +55,7 @@ function Timeline() {
           </TabLink>
         </h4>
         <p style={{ color: 'black' }}>
-          Assisting in the development, testing, and maintenance of software applications using .NET Framework, C#, ASP.NET, SQL Server, Angular, and MongoDB. Collaborating with senior developers to design scalable solutions and troubleshoot issues. Gaining hands-on experience in a fast-paced, collaborative environment.
+          C#, ASP.NET, SQL Server
         </p>
       </VerticalTimelineElement>
 
