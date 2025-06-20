@@ -8,6 +8,7 @@ import { terra, hth, cu } from '../utils/directory';
 import hth1 from '../assets/images/portfolio/hth1.jpeg';
 import uav from '../assets/images/portfolio/bbuav1.png';
 import cu1 from '../assets/images/portfolio/cu1.jpg';
+import de from '../assets/images/portfolio/de1.png';
 
 function Timeline() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -55,8 +56,9 @@ function Timeline() {
           </TabLink>
         </h4>
         <p style={{ color: 'black' }}>
-          C#, ASP.NET, SQL Server
+          C#, ASP.NET, SQL Server, LINQ, in an Agile environment
         </p>
+        <img src={de} alt="uav" style={{ border: '2px solid black', marginTop: '30px' }} />
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
