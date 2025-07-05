@@ -7,7 +7,6 @@ import TabLink from './TabLink';
 import { terra, ecom as ecomTab, dice, hth, cu } from '../utils/directory';
 import hth1 from '../assets/images/portfolio/hth1.jpeg';
 import ter1 from '../assets/images/portfolio/ter1.png';
-import ecomImage from '../assets/images/portfolio/ecom.png';
 import diceImage from '../assets/images/portfolio/dice.png';
 import uavImage from '../assets/images/portfolio/bbuav1.png';
 import cu1 from '../assets/images/portfolio/cu1.jpg';
@@ -71,17 +70,6 @@ function WhatsNext() {
         { name: '#OPENAI Camera Vision API', color: 'bg-green' },
         { name: '#Google Maps API', color: 'bg-red' },
         { name: '#Tailwind CSS', color: 'bg-white' }
-      ]
-    },
-    {
-      tab: ecomTab,
-      image: ecomImage,
-      title: 'Ecommerce Store',
-      description: 'Simple ecommerce electronics store that is centered around the principles of object oriented programming and the model-view-controller architecture.',
-      techStack: [
-        { name: '#Java', color: 'bg-white' },
-        { name: '#OOP', color: 'bg-orange' },
-        { name: '#Model-View-Controller Architecture', color: 'bg-red' }
       ]
     },
     {

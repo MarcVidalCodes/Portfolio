@@ -14,7 +14,8 @@ function About() {
       <Section>
         <MarkdownHeader headingLevel="1" text="About" className="text-3xl md:text-5xl" />
         <LineBreak />
-        <Text>Hi! My name is Marc Vidal. I am a full stack software engineer, currently working as a <span className="font-bold text-green-400">Software Developer at DecisiveEdge</span> where I work with .NET Framework, C#, ASP.NET, SQL, and Angular.</Text>
+        <Text>Hi! My name is Marc Vidal. I am a full stack software engineer, currently working as a <span className="font-bold text-green-400">Software Developer at DecisiveEdge</span> where I work with .NET Framework, C#, ASP.NET, and SQL.</Text>
+        <Text>I love learning! I am currently learning embedded systems and working towards my AWS Certified Cloud Practitioner certification.</Text>
         
         <MarkdownHeader headingLevel="2" text="Background" className="text-2xl md:text-3xl mt-6" />
         <Text>I'm pursuing my Bachelor of Science in Computer Science from Carleton University, with a specialization in artificial intelligence and machine learning. I'm particularly interested in developing innovative solutions that leverage both frontend and backend technologies.</Text>

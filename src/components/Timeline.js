@@ -56,7 +56,7 @@ function Timeline() {
           </TabLink>
         </h4>
         <p style={{ color: 'black' }}>
-          C#, ASP.NET, SQL Server, LINQ, in an Agile environment
+          Working with C#, ASP.NET, SQL Server, LINQ, in an Agile environment on a team of 4 with senior executives including the company president.
         </p>
         <img src={de} alt="uav" style={{ border: '2px solid black', marginTop: '30px' }} />
       </VerticalTimelineElement>

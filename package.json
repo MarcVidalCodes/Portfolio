@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@vercel/analytics": "^1.5.0",
     "classnames": "^2.3.2",
     "gh-pages": "^5.0.0",
     "js-confetti": "^0.11.0",

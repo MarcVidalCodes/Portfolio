@@ -3,6 +3,7 @@ import Dashboard from './components/Dashboard';
 import TabProvider from './contexts/tab/TabProvider';
 import Home from './components/Home';
 import About from './components/About';
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const tabs = [
@@ -13,6 +14,7 @@ function App() {
   return (
     <TabProvider initialTabs={tabs}>
       <Dashboard />
+      <Analytics />
     </TabProvider>
   );
 }
