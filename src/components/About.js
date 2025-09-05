@@ -14,8 +14,8 @@ function About() {
       <Section>
         <MarkdownHeader headingLevel="1" text="About" className="text-3xl md:text-5xl" />
         <LineBreak />
-        <Text>Hi! My name is Marc Vidal. I am a full stack software engineer, currently working as a <span className="font-bold text-green-400">Software Developer at DecisiveEdge</span> where I work with .NET Framework, C#, ASP.NET, and SQL.</Text>
-        <Text>I love learning! I am currently learning embedded systems and working towards my AWS Certified Cloud Practitioner certification.</Text>
+        <Text>Hi! My name is Marc Vidal. I am a full stack software engineer, currently working as a <span className="font-bold text-green-400">Software Developer at JSI</span> on the Technical Program Management team.</Text>
+        <Text>I am passionate about learning and driven by results!</Text>
         
         <MarkdownHeader headingLevel="2" text="Background" className="text-2xl md:text-3xl mt-6" />
         <Text>I'm pursuing my Bachelor of Science in Computer Science from Carleton University, with a specialization in artificial intelligence and machine learning. I'm particularly interested in developing innovative solutions that leverage both frontend and backend technologies.</Text>
@@ -28,10 +28,10 @@ function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <Text><span className="font-bold text-pink-400">🏀 Sports:</span> Playing basketball, swimming, and staying active</Text>
-            <Text><span className="font-bold text-yellow-400">🚗 Automotive:</span> Passionate about sports cars and automotive technology</Text>
+            <Text><span className="font-bold text-yellow-400">💻 Currently:</span> learning Golang and DevOps</Text>
           </div>
           <div>
-            <Text><span className="font-bold text-blue-400">🎮 Games:</span> Strategy games and competitive gaming</Text>
+            <Text><span className="font-bold text-blue-400">🎮 Games:</span> Strategy games, League of Legends, TFT</Text>
             <Text><span className="font-bold text-purple-400">🐕 Pets:</span> Going on walks with my dog, Hershey!</Text>
           </div>
         </div>

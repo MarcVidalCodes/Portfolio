@@ -1,4 +1,5 @@
 export class ColorPicker {
+    static "__#23@#l10nColor": null;
     static get _keyboardManager(): any;
     constructor({ editor, uiManager }: {
         editor?: null | undefined;

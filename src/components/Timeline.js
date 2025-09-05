@@ -4,7 +4,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import webdevcert from '../assets/images/webdevcert.jpg';
 import ter1 from '../assets/images/portfolio/ter1.png';
 import TabLink from './TabLink';
-import { terra, hth, cu } from '../utils/directory';
+import { terra, hth, cu, rec } from '../utils/directory';
 import hth1 from '../assets/images/portfolio/hth1.jpeg';
 import uav from '../assets/images/portfolio/bbuav1.png';
 import cu1 from '../assets/images/portfolio/cu1.jpg';
@@ -23,13 +23,14 @@ function Timeline() {
   }, []);
 
   return (
-    <VerticalTimeline>
+    <div className="relative z-0">
+      <VerticalTimeline>
             <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="Incoming September 2025 - December 2025"
+        date="September 2025 - December 2025"
         iconStyle={{ background: 'yellow', color: '#fff' }}
       >
-        {isMobile && <p className="timeline-date" style={{ color: 'black' }}>Incoming September 2025 - December 2025</p>}
+        {isMobile && <p className="timeline-date" style={{ color: 'black' }}>September 2025 - December 2025</p>}
         <h3 className="vertical-timeline-element-title" style={{ color: 'black' }}>Software Developer Intern</h3>
         <h4 className="vertical-timeline-element-subtitle">
           <TabLink
@@ -39,6 +40,9 @@ function Timeline() {
             at JSI Telecom
           </TabLink>
         </h4>
+        <p style={{ color: 'black' }}>
+          On the Technical Program Management team
+        </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
@@ -58,7 +62,9 @@ function Timeline() {
         <p style={{ color: 'black' }}>
           Working with C#, ASP.NET, SQL Server, LINQ, in an Agile environment on a team of 4 with senior executives including the company president.
         </p>
-        <img src={de} alt="uav" style={{ border: '2px solid black', marginTop: '30px' }} />
+        <p style={{ color: 'black' }}>
+          Awarded two recognition awards and a <TabLink tab={rec} className="text-link font-normal text-blue-500 underline">letter of recommendation</TabLink> from the President
+        </p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
@@ -170,6 +176,7 @@ function Timeline() {
         <p style={{ color: 'black' }}>Led a guard team of 3 as a head lifeguard and taught successful high level lifesaving classes.</p>
       </VerticalTimelineElement>
     </VerticalTimeline>
+    </div>
   );
 }
 

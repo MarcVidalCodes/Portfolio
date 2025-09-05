@@ -6,10 +6,9 @@ import Dice from '../components/projects/Dice';
 import WhatsNext from '../components/WhatsNext'
 import Timeline from '../components/Timeline';
 import Terra from '../components/projects/TerraSphere'
-import Skill from '../components/Skills'
 import HTH from '../components/projects/hth';
 import TagRoyale from '../components/projects/TagRoyale';
-
+import ReferenceLetters from '../components/letterofrec'; 
 
 const about = { name: 'About', type: 'file', extension: 'js', component: <About /> }
 const home = { name: 'Home', type: 'file', extension: 'js', component: <Home /> }
@@ -18,9 +17,9 @@ const dice = { name: 'Dice', type: 'file', extension: 'jsx', component: <Dice />
 const terra = { name: 'TerraSphere', type: 'file', extension: 'jsx', component: <Terra /> }
 const whatsnext = { name: 'MyProjects', type: 'file', extension: 'css', component: <WhatsNext /> }
 const timeline = { name: 'Experience', type: 'file', extension: 'html', component: <Timeline /> }
-const skills = {name: 'Skills', type:'file', extension: 'txt', component: <Skill /> }
 const hth = { name: 'RelaxEDai', type: 'file', extension: 'jsx', component: <HTH /> }
 const cu = { name: 'TagRoyale', type: 'file', extension: 'jsx', component: <TagRoyale /> }
+const rec = { name: 'READ', type: 'file', extension: 'pdf', component: <ReferenceLetters /> } 
 
 const directory = [{
   name: 'marc_vidal_portfolio',
@@ -28,9 +27,9 @@ const directory = [{
   children: [
     home,
     about,
+    rec,
     timeline,
     whatsnext,
-    skills,
     {
       name: 'projects',
       type: 'folder',
@@ -49,12 +48,12 @@ export {
   whatsnext,
   about,
   hth,
+  rec,
   home,
   contact,
   terra,
   directory,
   dice,
   timeline,
-  skills,
   cu
 };

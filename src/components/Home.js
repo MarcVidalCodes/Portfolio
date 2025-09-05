@@ -14,7 +14,7 @@ function Home() {
           Hi! I'm <span className="text-pink">Marc</span>!
         </h1>
         <h2 className='text-3xl'>
-          Aspiring Software Engineer
+          SDE Intern @ JSI
           <span className="animate-blink">|</span>
         </h2>
         <LineBreak />
@@ -38,10 +38,6 @@ function Home() {
         <div>
           <TabLink tab={timeline} className="text-link font-normal">Experience</TabLink>
           <span className="ml-5">~/my_experience</span>
-        </div>
-        <div>
-          <TabLink tab={skills} className="text-link font-normal">Technologies</TabLink>
-          <span className="ml-5">~/my_skills</span>
         </div>
         <div>
           <TabLink tab={whatsnext} className="text-link font-normal">Projects</TabLink>

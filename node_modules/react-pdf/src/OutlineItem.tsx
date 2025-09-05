@@ -18,7 +18,7 @@ type OutlineItemProps = {
   pdf?: PDFDocumentProxy | false;
 };
 
-export default function OutlineItem(props: OutlineItemProps) {
+export default function OutlineItem(props: OutlineItemProps): React.ReactElement {
   const documentContext = useDocumentContext();
 
   const outlineContext = useOutlineContext();
@@ -105,7 +105,7 @@ export default function OutlineItem(props: OutlineItemProps) {
 
   return (
     <li>
-      {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+      {/* biome-ignore lint/a11y/useValidAnchor: We can't provide real href here */}
       <a href="#" onClick={onClick}>
         {item.title}
       </a>
