@@ -60,7 +60,7 @@ function Dashboard() {
         </Drawer>
 
         {/* Main content and navbar */}
-        <div className="flex-1 flex flex-col w-full overflow-hidden mt-[90px] md:mt-0">
+        <div className="flex-1 flex flex-col w-full overflow-hidden mt-[50px] md:mt-0">
           <Navbar toggleDrawer={toggleDrawer} />
 
           {tabs.current ?

@@ -46,32 +46,6 @@ const Footer = () => {
           <BellIcon />
         </div>
       </footer>
-
-      {/* Mobile Footer */}
-      <footer className="bg-dark-600 text-white flex items-center justify-between px-3 py-2 h-10 md:hidden">
-        <div className="flex items-center">
-          <a
-            href="https://github.com/MarcVidalCodes/Portfolio"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="text-blue-400 no-underline flex items-center"
-          >
-            <SourceControlIcon className="mr-2 w-4 h-4" />
-            <span className="text-white text-sm">main</span>
-          </a>
-        </div>
-        
-        <div className="flex items-center space-x-3">
-          <div className="flex items-center">
-            <ErrorIcon className="w-4 h-4" />
-            <span className="ml-1 text-white text-xs">0</span>
-          </div>
-          <div className="flex items-center">
-            <WarningIcon className="w-4 h-4" />
-            <span className="ml-1 text-white text-xs">0</span>
-          </div>
-        </div>
-      </footer>
     </>
   );
 };
