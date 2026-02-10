@@ -27,6 +27,29 @@ function Timeline() {
       <VerticalTimeline>
             <VerticalTimelineElement
         className="vertical-timeline-element--work"
+        date="May 2026- December 2026"
+        iconStyle={{ background: 'green', color: '#fff' }}
+      >
+        {isMobile && <p className="timeline-date" style={{ color: 'black' }}>September 2025 - December 2025</p>}
+        <h3 className="vertical-timeline-element-title" style={{ color: 'black' }}>Software Developer Intern</h3>
+        <h4 className="vertical-timeline-element-subtitle">
+          <TabLink
+            tab="https://www.kinaxis.com/en"
+            className="text-link font-normal text-blue-100"
+          >
+            at Kinaxis
+          </TabLink>
+        </h4>
+        <p style={{ color: 'black' }}>
+          Backend Technologies - Rapid Cloud team
+        </p>
+
+<p style={{ color: 'black' }}>
+          Working with Golang, C++, AWS, Docker, Kubernetes
+        </p>
+      </VerticalTimelineElement>
+            <VerticalTimelineElement
+        className="vertical-timeline-element--work"
         date="September 2025 - December 2025"
         iconStyle={{ background: 'yellow', color: '#fff' }}
       >
@@ -41,8 +64,15 @@ function Timeline() {
           </TabLink>
         </h4>
         <p style={{ color: 'black' }}>
-          On the Technical Program Management team
+          Technical Program Management Office (TPMO)
         </p>
+        <p style={{ color: 'black' }}>
+          Developed and automated new reporting infrastructure for the TPMO
+        </p>
+        <p style={{ color: 'black' }}>
+          Awarded "Co-op Star", which is given to a sole recipient among the intern batch for initiative, impact of work, etc
+        </p>
+
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"

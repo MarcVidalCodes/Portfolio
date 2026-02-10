@@ -14,7 +14,7 @@ function Home() {
           Hi! I'm <span className="text-pink">Marc</span>!
         </h1>
         <h2 className='text-3xl'>
-          SDE Intern @ JSI
+          Incoming SWE intern @ Kinaxis
           <span className="animate-blink">|</span>
         </h2>
         <LineBreak />

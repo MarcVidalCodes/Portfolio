@@ -8,7 +8,7 @@ import CheckIcon from './icons/CheckIcon';
 import ReactIcon from './icons/ReactIcon';
 
 const Footer = () => {
-  const lastUpdated = "04/09/2025";
+  const lastUpdated = "02/10/2026";
   
   return (
     <>
