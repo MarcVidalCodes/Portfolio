@@ -3,8 +3,6 @@ import MarkdownHeader from './MarkdownHeader';
 import LineBreak from './LineBreak';
 import Section from './Section';
 import Text from './Text';
-import MarkdownButton from './MarkdownButton';
-import Comment from './Comment';
 import {contact } from '../utils/directory'
 import TabLink from './TabLink';
 

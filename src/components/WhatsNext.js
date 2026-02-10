@@ -4,7 +4,7 @@ import LineBreak from './LineBreak';
 import Section from './Section';
 import Text from './Text';
 import TabLink from './TabLink';
-import { terra, ecom as ecomTab, dice, hth, cu } from '../utils/directory';
+import { terra, dice, hth, cu } from '../utils/directory';
 import hth1 from '../assets/images/portfolio/hth1.jpeg';
 import ter1 from '../assets/images/portfolio/ter1.png';
 import diceImage from '../assets/images/portfolio/dice.png';

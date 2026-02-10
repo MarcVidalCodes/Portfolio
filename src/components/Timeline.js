@@ -8,7 +8,6 @@ import { terra, hth, cu, rec } from '../utils/directory';
 import hth1 from '../assets/images/portfolio/hth1.jpeg';
 import uav from '../assets/images/portfolio/bbuav1.png';
 import cu1 from '../assets/images/portfolio/cu1.jpg';
-import de from '../assets/images/portfolio/de1.png';
 
 function Timeline() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);

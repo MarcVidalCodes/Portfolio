@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from './Section';
 import Text from './Text';
-import { about, contact, whatsnext, skills, timeline } from '../utils/directory';
+import { about, contact, whatsnext, timeline } from '../utils/directory';
 import LineBreak from './LineBreak';
 import TabLink from './TabLink';
 
