@@ -40,11 +40,11 @@ function Timeline() {
           </TabLink>
         </h4>
         <p style={{ color: 'black' }}>
-          Backend Technologies - Rapid Cloud team
+          Backend Technologies
         </p>
 
 <p style={{ color: 'black' }}>
-          Working with Golang, C++, AWS, Docker, Kubernetes
+          Working with Golang, AWS, Docker, Kubernetes, etc
         </p>
       </VerticalTimelineElement>
             <VerticalTimelineElement
